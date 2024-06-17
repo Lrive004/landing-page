@@ -69,3 +69,51 @@ p {
 }
 
 /* Body Content Section Styling */
+
+.body-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.body-title {
+  color: #1f2937;
+  margin: 15px;
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+}
+
+.boxes {
+  background-color: white;
+  border: 3px solid #3882f6;
+  border-radius: 5px;
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+.boxes-layout {
+  justify-content: space-around;
+}
+
+.descriptions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 10px;
+  width: 500px;
+}
+
+.descriptions p {
+  color: #1f2937;
+}

@@ -117,3 +117,25 @@ p {
 .descriptions p {
   color: #1f2937;
 }
+
+/*  Body Quote Section Styling */
+
+.quote-container {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote {
+  color: #1f2937;
+  padding: 50px;
+  font-weight: lighter;
+  font-size: 36px;
+}
+
+.quote-author {
+  align-self: flex-end;
+  padding-bottom: 70px;
+  padding-right: 20px;
+  font-weight: bolder;
+}

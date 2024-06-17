@@ -32,3 +32,40 @@ li {
   font-size: 18px;
   color: #e5e7eb;
 }
+
+/* Header Content Section Styling */
+p {
+  color: #e5e7eb;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.header-content {
+  display: flex;
+}
+
+.header-about {
+  color: #f9faf8;
+  font-weight: bolder;
+  font-size: 48px;
+  margin: 50px;
+  flex: 1;
+}
+
+.header-img {
+  color: #e5e7eb;
+  align-content: center;
+  background-color: #a1a3a8;
+  padding: 50px;
+  margin: 50px;
+}
+
+.headerBtn {
+  color: #e5e7eb;
+  background-color: #3882f6;
+  border: 1px solid #3882f6;
+  border-radius: 3px;
+  padding: 5px 20px;
+}
+
+/* Body Content Section Styling */

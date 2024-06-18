@@ -60,7 +60,8 @@ p {
   margin: 50px;
 }
 
-.headerBtn {
+.headerBtn,
+.blockBtn {
   color: #e5e7eb;
   background-color: #3882f6;
   border: 1px solid #3882f6;
@@ -135,7 +136,49 @@ p {
 
 .quote-author {
   align-self: flex-end;
-  padding-bottom: 70px;
+  padding-bottom: 30px;
   padding-right: 20px;
   font-weight: bolder;
+}
+
+/* Call To Action Section Styling */
+
+.sign-up-block {
+  /* background-color: #3882f6; */
+  display: flex;
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up-content {
+  display: flex;
+  background-color: #3882f6;
+  border-radius: 4px;
+  padding: 30px;
+  margin: 10px;
+}
+
+h4 {
+  color: #e5e7eb;
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+  padding: 50px;
+}
+
+.blockBtn {
+  border: 2px solid white;
+  align-content: center;
+}
+
+/* Footer Scetion Styling */
+
+.footer {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-content: center;
 }
